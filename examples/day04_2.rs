@@ -1,5 +1,3 @@
-use std::collections::*;
-
 fn main() {
     let lines: Vec<String> = std::io::stdin().lines().map(|x| x.unwrap()).collect();
     let mut result = 0;
